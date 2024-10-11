@@ -13,6 +13,6 @@ const router = createBrowserRouter([
         path: '/lista-de-usuarios',
         element: <ListUsers />,
     }
-]);
+], {basename: '/cadastro-de-usuarios' });
 
 export default router
